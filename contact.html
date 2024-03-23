@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html">Página Inicial</a></li>
+                <li><a href="about-us.html">Sobre a Nós</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li><a href="opening-hours.html">Horários</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="/Imagens/contato.png" alt="banner contato" height="150px" width="100%">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h2>Formulário para contato</h2>
+                <hr>
+                <br>
+                <form name="contato" onsubmit="alert('Formulário enviado com sucesso')" method="get" action="">
+                    Nome: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="name"><br>
+                    E-mail: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" name="email"> <br>
+                    Assunto: &nbsp&nbsp&nbsp&nbsp<input type="text" name="assunto"> <br>
+                    Mensagem: <textarea name="mensagem" cols="21" rows="4"></textarea><br>
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button col type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+
+                </form>
+                <hr>
+                
+                <br>
+                <h3>Endereço:</h3>
+                <p>Av. Francisco Monteiro, 239 - Centro, Ribeirão Pires - SP, 09400-310</p>
+                <h3>Telefones para contato:</h3>
+                <p>Fixo: (011) 4336-9777</p>
+                <p>Whatsapp: (011) 9 7070-7070</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d278045.56261410087!2d-46.7196782080713!3d-23.703034452968833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6ce57c5463fd%3A0xe0733586766bb2ed!2sSanta%20Helena%20Sa%C3%BAde%20-%20Centro%20M%C3%A9dico%20Ribeir%C3%A3o%20Pires!5e0!3m2!1spt-BR!2sbr!4v1711207122050!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+    
+            <div class="footer">
+                <p>Av. Francisco Monteiro, 239 - Centro, Ribeirão Pires - SP, 09400-310</p>
+                <p>Fixo: (011) 4336-9777</p>
+                <p>Whatsapp: (011) 9 7070-7070</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
